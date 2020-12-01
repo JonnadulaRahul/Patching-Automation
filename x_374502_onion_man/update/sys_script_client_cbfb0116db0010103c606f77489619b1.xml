@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>amount</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>BlanceDisply</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   
+	//g_form.setMandatory('customer_name',true);
+	//g_form.setMandatory('amount',true);
+	var cre = g_form.getValue('credit');
+	var deb = g_form.getValue('debit');
+	var Bal = cre - deb;
+	alert(Bal);
+	
+	//return false;
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 12:33:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cbfb0116db0010103c606f77489619b1</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>BlanceDisply</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Onion_Management" source="x_374502_onion_man">47b3280adb8410103c606f7748961962</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onion_Management">47b3280adb8410103c606f7748961962</sys_scope>
+        <sys_update_name>sys_script_client_cbfb0116db0010103c606f77489619b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-14 12:14:25</sys_updated_on>
+        <table>x_374502_onion_man_customer_transaction</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

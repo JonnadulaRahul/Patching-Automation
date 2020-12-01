@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_374502_onion_man_customer_transaction</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Onion_filter_credit_or_debit</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	gs.info("Customer Name   " + current.customer_name.getDisplayValue());
+	var total_credit=0;
+	var total_debit=0;
+	var onion = new GlideRecord('x_374502_onion_man_customer_transaction');
+	onion.addQuery('customer_name',current.customer_name);	
+	onion.query();
+	
+	while(onion.next()){
+		//gs.info("Credit   " +onion.credit + "Debit    " +onion.debit);
+		if(onion.credit != null && onion.credit != '0'){
+		total_credit= parseInt(total_credit)+parseInt(onion.credit);
+			gs.info("total_credit  "+total_credit.toString());
+		}
+		if(onion.debit != null && onion.debit != '0'){
+		total_debit=parseInt(total_debit)+parseInt(onion.debit);
+			gs.info("total_debit  "+total_debit.toString());
+		}
+	}
+	
+	gs.info("Total Credit   "+total_credit + "Total Debit    "+total_debit);
+	var total_balance = parseInt(total_credit)-parseInt(total_debit);
+	gs.info("Current balance is   "+current.balance);
+	var CDType = current.transaction_details;
+	
+	gs.info("Tran Type is:   " + CDType  + " Tran Val is:    " + current.amount);
+	if(CDType == 'Credit Transaction')
+		{
+			current.credit = current.amount;
+			current.debit = '0';
+			 current.balance= parseInt(total_balance)+parseInt(current.credit);
+			gs.info("current balance   ="  + current.balance);
+	}
+	else if(CDType == 'Debit Transaction')
+		{
+			current.debit = current.amount;
+			current.credit = '0';
+			current.balance = parseInt(total_balance)-parseInt(current.debit);
+			gs.info("current balance   ="   +current.balance);
+	}
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-10 16:15:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0830b992db8010103c606f77489619a5</sys_id>
+        <sys_mod_count>58</sys_mod_count>
+        <sys_name>Onion_filter_credit_or_debit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Onion_Management" source="x_374502_onion_man">47b3280adb8410103c606f7748961962</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onion_Management">47b3280adb8410103c606f7748961962</sys_scope>
+        <sys_update_name>sys_script_0830b992db8010103c606f77489619a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-19 01:54:43</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=0830b992db8010103c606f77489619a5"/>
+</record_update>

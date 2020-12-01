@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_374502_onion_man.customer_transaction_global_user" name="x_374502_onion_man.customer_transaction_global_user">305b9ae5db68d0103c606f774896196d</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 06:50:31</sys_created_on>
+        <sys_id>745b9aa9db68d0103c606f7748961970</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>305b9ae5db68d0103c606f774896196d</sys_name>
+        <sys_package display_value="Onion_Management" source="x_374502_onion_man">47b3280adb8410103c606f7748961962</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onion_Management">47b3280adb8410103c606f7748961962</sys_scope>
+        <sys_update_name>sys_embedded_help_role_745b9aa9db68d0103c606f7748961970</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 06:50:31</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

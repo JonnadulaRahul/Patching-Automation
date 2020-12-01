@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Customer_Transaction" max_length="40" name="x_374502_onion_man_customer_transaction" sizeclass="13" type="collection">
+        <element label="Amount" mandatory="true" max_length="40" name="amount" type="string"/>
+        <element label="Balance" max_length="40" name="balance" type="string"/>
+        <element label="BIll No" max_length="40" name="bill_no" type="integer"/>
+        <element label="Credit" max_length="40" name="credit" type="string"/>
+        <element attributes="ref_contributions=caller_trans" default="ref_contributions=caller_transactions" label="Customer Name" max_length="32" name="customer_name" reference="sys_user" type="reference"/>
+        <element label="Debit" max_length="40" name="debit" type="string"/>
+        <element label="Manual Bill No" max_length="40" name="manual_bill_no" type="boolean"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Transaction Date" max_length="40" name="transaction_date" type="glide_date" use_dynamic_default="true"/>
+        <element choice="1" label="Transaction Details" max_length="40" name="transaction_details" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Credit Transaction" value="Credit Transaction"/>
+                <element inactive_on_update="false" label="Debit Transaction" value="Debit Transaction"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="customer_name"/>
+        </index>
+    </element>
+</database>

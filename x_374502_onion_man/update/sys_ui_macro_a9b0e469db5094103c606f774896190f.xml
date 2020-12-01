@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>caller_transaction_list</name>
+        <scoped_name>x_374502_onion_man_caller_transaction_list</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-20 12:24:13</sys_created_on>
+        <sys_id>a9b0e469db5094103c606f774896190f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>caller_transaction_list</sys_name>
+        <sys_package display_value="Onion_Management" source="x_374502_onion_man">47b3280adb8410103c606f7748961962</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onion_Management">47b3280adb8410103c606f7748961962</sys_scope>
+        <sys_update_name>sys_ui_macro_a9b0e469db5094103c606f774896190f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-20 12:50:53</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<img src='book-icon.png' style='width:25%; height=25%' onclick="transactionList()" title="${gs.getMessage('Show Customer Transaction')}" ></img>
+	<script language="javascript">
+		function transactionList(){
+		alert(g_form.getValue('customer_name'));
+		
+		
+		
+			var name = g_form.getValue('customer_name');
+			var tableName = 'x_374502_onion_man_customer_transaction';
+			var url =   tableName + '_list.do?';
+			url += 'sysparm_query=customer_name=' +name;
+			var window = getTopWindow();
+			window.popupOpenFocus(url,'sys_ref_list',   700, 500,'',true,false);
+		
+		
+		
+		
+		}
+	</script>
+
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_374502_onion_man_customer_transaction_global</description>
+        <name>x_374502_onion_man_customer_transaction_global</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 06:50:33</sys_created_on>
+        <sys_id>415b9aa9db68d0103c606f77489619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_374502_onion_man_customer_transaction_global</sys_name>
+        <sys_package display_value="Onion_Management" source="x_374502_onion_man">47b3280adb8410103c606f7748961962</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onion_Management">47b3280adb8410103c606f7748961962</sys_scope>
+        <sys_update_name>sys_security_acl_415b9aa9db68d0103c606f77489619ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 06:50:33</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Onion_Management">47b3280adb8410103c606f7748961962</application>
+        <file_path/>
+        <instance_id>c632a75cdb99fb8091232f17d4961964</instance_id>
+        <instance_name>dev85092</instance_name>
+        <name>sys_security_acl_415b9aa9db68d0103c606f77489619ab</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_374502_onion_man_customer_transaction_global</description><name>x_374502_onion_man_customer_transaction_global</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-03 06:50:33</sys_created_on><sys_id>415b9aa9db68d0103c606f77489619ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_374502_onion_man_customer_transaction_global</sys_name><sys_package display_value="Onion_Management" source="x_374502_onion_man">47b3280adb8410103c606f7748961962</sys_package><sys_policy/><sys_scope display_value="Onion_Management">47b3280adb8410103c606f7748961962</sys_scope><sys_update_name>sys_security_acl_415b9aa9db68d0103c606f77489619ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-03 06:50:33</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>1147117478</payload_hash>
+        <record_name>x_374502_onion_man_customer_transaction_global</record_name>
+        <reverted_from/>
+        <source>1bb3a08adb8410103c606f774896190f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 06:50:33</sys_created_on>
+        <sys_id>895b9aa9db68d0103c606f77489619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d94cfada0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 06:50:33</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>c15b9aa9bf68d0106317ad2666ac93ad</update_guid>
+        <update_guid_history>c15b9aa9bf68d0106317ad2666ac93ad:1147117478</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 14:21:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>54a28ebdef2c4712bc701a23f1f74ba4</sys_id>
+        <sys_metadata>415b9aa9db68d0103c606f77489619ab</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_374502_onion_man_customer_transaction_global</sys_name>
+        <sys_package display_value="Onion_Management" source="x_374502_onion_man">47b3280adb8410103c606f7748961962</sys_package>
+        <sys_parent display_value="">1d5b9aa9db68d0103c606f77489619b7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Onion_Management">47b3280adb8410103c606f7748961962</sys_scope>
+        <sys_scope_delete display_value="">69ef270e7ff7460081b127625e057601</sys_scope_delete>
+        <sys_update_name>sys_security_acl_415b9aa9db68d0103c606f77489619ab</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_415b9aa9db68d0103c606f77489619ab">895b9aa9db68d0103c606f77489619ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 14:21:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Customer Transaction Global">cd5b9aa9db68d0103c606f774896198a</application>
+        <filter/>
+        <name>Customer Transaction Globals</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_374502_onion_man.customer_transaction_global_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 06:50:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>895b9aa9db68d0103c606f774896198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Transaction Globals</sys_name>
+        <sys_package display_value="Onion_Management" source="x_374502_onion_man">47b3280adb8410103c606f7748961962</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onion_Management">47b3280adb8410103c606f7748961962</sys_scope>
+        <sys_update_name>sys_ui_module_895b9aa9db68d0103c606f774896198d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 06:50:32</sys_updated_on>
+        <table>x_374502_onion_man_customer_transaction_global</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Onion_Management">47b3280adb8410103c606f7748961962</application>
+        <file_path/>
+        <instance_id>c632a75cdb99fb8091232f17d4961964</instance_id>
+        <instance_name>dev85092</instance_name>
+        <name>sys_ui_module_895b9aa9db68d0103c606f774896198d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Customer Transaction Global">cd5b9aa9db68d0103c606f774896198a</application><filter/><name>Customer Transaction Globals</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_374502_onion_man.customer_transaction_global_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-03 06:50:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>895b9aa9db68d0103c606f774896198d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Customer Transaction Globals</sys_name><sys_package display_value="Onion_Management" source="x_374502_onion_man">47b3280adb8410103c606f7748961962</sys_package><sys_policy/><sys_scope display_value="Onion_Management">47b3280adb8410103c606f7748961962</sys_scope><sys_update_name>sys_ui_module_895b9aa9db68d0103c606f774896198d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-03 06:50:32</sys_updated_on><table>x_374502_onion_man_customer_transaction_global</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1231683405</payload_hash>
+        <record_name>Customer Transaction Globals</record_name>
+        <reverted_from/>
+        <source>1bb3a08adb8410103c606f774896190f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 06:50:32</sys_created_on>
+        <sys_id>c95b9aa9db68d0103c606f774896198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d94cf93f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 06:50:32</sys_updated_on>
+        <type>Module</type>
+        <update_guid>055b9aa99a68d010dfb34d436506fc8f</update_guid>
+        <update_guid_history>055b9aa99a68d010dfb34d436506fc8f:-1231683405</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-03 14:21:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>0e5d55a0e08c4926b76adb9cbe983404</sys_id>
+        <sys_metadata>895b9aa9db68d0103c606f774896198d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Customer Transaction Globals</sys_name>
+        <sys_package display_value="Onion_Management" source="x_374502_onion_man">47b3280adb8410103c606f7748961962</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Onion_Management">47b3280adb8410103c606f7748961962</sys_scope>
+        <sys_scope_delete display_value="">69ef270e7ff7460081b127625e057601</sys_scope_delete>
+        <sys_update_name>sys_ui_module_895b9aa9db68d0103c606f774896198d</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_895b9aa9db68d0103c606f774896198d">c95b9aa9db68d0103c606f774896198f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-03 14:21:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

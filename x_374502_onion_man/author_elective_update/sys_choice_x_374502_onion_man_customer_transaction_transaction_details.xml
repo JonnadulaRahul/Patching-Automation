@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="transaction_details" table="x_374502_onion_man_customer_transaction" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>transaction_details</element>
+            <name>x_374502_onion_man_customer_transaction</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 15:16:16</sys_created_on>
+            <sys_id>d7e8a80edb8410103c606f7748961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>transaction_details</sys_name>
+            <sys_package display_value="Onion_Management" source="x_374502_onion_man">47b3280adb8410103c606f7748961962</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Onion_Management">47b3280adb8410103c606f7748961962</sys_scope>
+            <sys_update_name>sys_choice_x_374502_onion_man_customer_transaction_transaction_details</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 15:16:16</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>transaction_details</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Credit Transaction</label>
+            <language>en</language>
+            <name>x_374502_onion_man_customer_transaction</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 15:17:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3019280edb8410103c606f7748961923</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 15:22:06</sys_updated_on>
+            <value>Credit Transaction</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>transaction_details</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Debit Transaction</label>
+            <language>en</language>
+            <name>x_374502_onion_man_customer_transaction</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-04-09 15:16:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ba82c8edb8410103c606f7748961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-04-09 15:16:16</sys_updated_on>
+            <value>Debit Transaction</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
