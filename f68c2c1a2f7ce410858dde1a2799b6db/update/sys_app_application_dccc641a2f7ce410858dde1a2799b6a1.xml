@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order/>
+        <roles>rest_api_explorer,rest_service,admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>Rahul.Jonnadula</sys_created_by>
+        <sys_created_on>2020-12-02 13:09:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dccc641a2f7ce410858dde1a2799b6a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Patching Automation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Patching Automation" source="x_554944_patching">f68c2c1a2f7ce410858dde1a2799b6db</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Patching Automation">f68c2c1a2f7ce410858dde1a2799b6db</sys_scope>
+        <sys_update_name>sys_app_application_dccc641a2f7ce410858dde1a2799b6a1</sys_update_name>
+        <sys_updated_by>Rahul.Jonnadula</sys_updated_by>
+        <sys_updated_on>2020-12-02 13:09:43</sys_updated_on>
+        <title>Patching Automation</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>
